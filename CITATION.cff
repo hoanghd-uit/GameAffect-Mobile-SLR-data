@@ -18,7 +18,15 @@ keywords:
   - affective computing
   - mobile games
   - player experience
-# doi: 10.5281/zenodo.XXXXXXX   # add after the Zenodo deposit is minted
+doi: 10.5281/zenodo.24282202
+repository-code: "https://github.com/hoanghd-uit/GameAffect-Mobile-SLR-data"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24282201
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.24282202
+    description: "Version 1.0"
 preferred-citation:
   type: article
   title: "From Sensing to Anticipation on the Phone: A PRISMA 2020 Systematic Review of Player-Affect Modelling in Mobile Games"

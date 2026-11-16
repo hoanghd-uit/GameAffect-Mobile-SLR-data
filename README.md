@@ -1,8 +1,10 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24282202.svg)](https://doi.org/10.5281/zenodo.24282202)
+
 # Data and coding materials for: From Sensing to Anticipation on the Phone: A PRISMA 2020 Systematic Review of Player-Affect Modelling in Mobile Games
 
 Release **v1.0** (2026-11-15). Authors: Ha Dang Hoang and Do Trong Hop, University of Information Technology, Vietnam National University, Ho Chi Minh City, Vietnam.
 
-This repository holds the search records, screening decisions, coding forms, codebook, agreement analyses and the list of the **151 included reports** with their codes for the review named above (IEEE Transactions on Affective Computing, under review). Cite the archived version by its DOI (see `CITATION.cff`).
+This repository holds the search records, screening decisions, coding forms, codebook, agreement analyses and the list of the **151 included reports** with their codes for the review named above (IEEE Transactions on Affective Computing, under review). Archived at Zenodo: version 1.0 [10.5281/zenodo.24282202](https://doi.org/10.5281/zenodo.24282202); all versions [10.5281/zenodo.24282201](https://doi.org/10.5281/zenodo.24282201). Cite the version DOI (see `CITATION.cff`).
 
 ## Corpus at a glance
 
