@@ -22,8 +22,10 @@
 - PASS LLM Include+Unclear among screened = 142
 - Eligibility agreement recomputed from the coder files: Cohen's kappa = 0.714, PABAK = 0.867 (manuscript: 0.71 / 0.87).
 
+## Search-record reconciliation
+- `01_search/database_records_identifiers.csv`: 14,274 records (Scopus 4,817; SpringerLink 5,425; IEEE Xplore 3,888; ScienceDirect 144). This equals the PRISMA count of records exported. Scopus search set A (3,523 records) was added on 2026-11-16. The Scopus B1/B2 rows were re-derived from fresh copies of the exports and are identical.
+
 ## Known gaps in v1.0
-1. `01_search/database_records_identifiers.csv` holds 10,751 records. Scopus search set A (`SCOPUS_A_v1_2026-09-17_raw.csv`, 11.6 MB) is not yet included because it exceeded the 10 MB transfer limit. Until it is added, the total cannot be reconciled with the 14,274 records exported.
-2. Record-level title/abstract decisions of the database arm (11,657 records) were not available to this release. Only the counts are given.
-3. The mapping of export-file search sets (Scopus A/B1/B2, IEEE A/B1/B2, SpringerLink 01-06, ScienceDirect 01-06) to search tracks A-D2 needs confirmation by the authors. The ScienceDirect exports present are from a folder labelled supplemental.
-4. `IEEE_A_v1_p22_2101-2162.bib` contains 63 entries against a range label of 62.
+1. Record-level title/abstract decisions of the database arm (11,657 records) were not available to this release. Only the counts are given.
+2. The mapping of export-file search sets (Scopus A/B1/B2, IEEE A/B1/B2, SpringerLink 01-06, ScienceDirect 01-06) to search tracks A-D2 needs confirmation by the authors.
+3. `IEEE_A_v1_p22_2101-2162.bib` holds 63 entries although its range label implies 62. Because the total reconciles, the label is the error.

@@ -30,7 +30,7 @@ This repository holds the search records, screening decisions, coding forms, cod
 | File | Rows | Content |
 |---|---|---|
 | `01_search/search_strings.csv` | 21 | Search strings per track and platform (Scopus and OpenAlex verbatim; IEEE/ScienceDirect/SpringerLink reconstructed) |
-| `01_search/database_records_identifiers.csv` | 10751 | Identifier-only list of database-search records as exported (no abstracts, authors or keywords); Scopus search set A pending |
+| `01_search/database_records_identifiers.csv` | 14274 | Identifier-only list of all 14,274 database-search records as exported, before de-duplication (no abstracts, authors or keywords) |
 | `01_search/openalex_supplementary_query.csv` | 11 | OpenAlex supplementary query as run on 2026-11-11 |
 | `01_search/openalex_supplementary_flow_counts.csv` | 16 | Record flow of the OpenAlex supplementary search |
 | `02_screening/database_arm/prisma_counts_v19.csv` | 22 | PRISMA counts of the database arm (v19 freeze, broad game-affect review) |
@@ -84,7 +84,7 @@ This repository holds the search records, screening decisions, coding forms, cod
 - `session_design` had low human-human agreement (raw 0.28) and is reported descriptively only.
 - Human title/abstract reasons in `human_title_abstract_screening_142.csv` and `retrieval_and_fulltext_113.csv` are partly written in Vietnamese.
 - In `01_search/search_strings.csv` the Scopus and OpenAlex strings are verbatim. The IEEE Xplore, ScienceDirect and SpringerLink strings are reconstructed adaptations, because the strings actually run were not archived.
-- `01_search/database_records_identifiers.csv` lists the records as exported, before de-duplication. `search_set` is the label of the export file. One IEEE export file (`IEEE_A_v1_p22_2101-2162.bib`) contains 63 entries against a range label of 62.
+- `01_search/database_records_identifiers.csv` lists the records as exported, before de-duplication. `search_set` is the label of the export file. Per database: Scopus 4,817, SpringerLink 5,425, IEEE Xplore 3,888, ScienceDirect 144. The total equals the 14,274 records exported (PRISMA). One IEEE export file (`IEEE_A_v1_p22_2101-2162.bib`) holds 63 entries although its range label implies 62. Because the total reconciles, the label is the error.
 - The database-arm tables in `02_screening/database_arm/` are shared with the companion broad review of affective computing in digital games (614 included reports). Only the 110 `MOBILE_CORE` reports enter this review.
 
 ## What is not included, and why
