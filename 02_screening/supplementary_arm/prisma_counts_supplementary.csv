@@ -1,0 +1,21 @@
+Stage,n
+"Records identified: OpenAlex supplementary search (gap-fixed Track A), 2026-11-11",14802
+Unique records,14716
+"Removed before screening: ineligible type, MDPI, after 11 Sep 2026",3013
+"Already in the original review (DOI/title match to 3,839 reports sought)",848
+Covered by the original strings (not re-screened),3563
+Term-gap records,7292
+Removed by deterministic noise filter (game theory / no gameplay context; 100-record check: 0 Include),4069
+Screened on title/abstract (LLM pre-screen),3223
+LLM Include + Unclear passed to human title/abstract screening,142
+Excluded by human at title/abstract,29
+Kept by human (76 Include + 37 Unclear),113
+Removed before retrieval: second-look exclusions (wrong construct / insufficient relevance),7
+Removed before retrieval: not mobile per screening note,3
+Removed before retrieval: not peer reviewed (student project report),1
+Removed before retrieval: possible duplicate of an original record,1
+Reports sought for retrieval,101
+Reports not retrieved,35
+Reports assessed for eligibility (full text),66
+Excluded at full text: not mobile,3
+NEW INCLUDED MOBILE REPORTS,63

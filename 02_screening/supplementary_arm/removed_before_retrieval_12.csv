@@ -1,0 +1,13 @@
+sup_id,title,your_TA_decision,second_look_rec,second_look_why,scope_flag
+SUP030,"Four Pillars of Healthy Escapism in Games: Emotion Regulation, Mood Management, Coping, and Recovery",Include,,,Your note says non-mobile: change to Exclude (NOT_MOBILE)?
+SUP031,Immersiveness and Usability in VR: AComparative Study of Monstrum and Fruit Ninja,Include,,,Your note says non-mobile: change to Exclude (NOT_MOBILE)?
+SUP036,Gaming the Mind and Minding the Game: Mindfulness and Flow in Video Games,Include,,,Your note says non-mobile: change to Exclude (NOT_MOBILE)?
+SUP045,CyPRESS Exergame Enjoyment,Include,,,Record is a WPI undergraduate project report (not peer reviewed); peer-reviewed version (Audibert 2023) already in the 110 -\> FT Exclude WRONG_PUBLICATION_TYPE
+SUP084,"Analysis, Implementation, and Assessment of a Serious Game for Smoking Cessation: Investigating Design and Playtesting Outcomes",Unclear,EXCLUDE now,INSUFFICIENT_RELEVANCE: smoking-cessation game playtesting; no affect outcome indicated,
+SUP087,Development of a Mobile Exergame to Implement Brief Interventions to Increase Physical Activity for Adults with Schizophrenia,Unclear,EXCLUDE now,WRONG_CONSTRUCT: development of a physical-activity exergame; no affect measure indicated,
+SUP088,Research on Interaction Design of Anti-addiction for Minor Games Based on Flow Theory,Unclear,EXCLUDE now,"WRONG_CONSTRUCT: anti-addiction interaction design proposal; flow used as theory, not measured",
+SUP089,ARCoD: An Augmented Reality Serious Game to Identify Cognitive Distortion,Unclear,EXCLUDE now,WRONG_CONSTRUCT: abstract states player-experience evaluation is future work,
+SUP093,"Augmented Reality, Games and Art: Immersion and Flow",Unclear,EXCLUDE now,"INSUFFICIENT_RELEVANCE: discussion chapter on AR art, no empirical study",
+SUP096,Empirical study on Game Transfer Phenomena in a location-based augmented reality game,Unclear,EXCLUDE now,"WRONG_CONSTRUCT: game transfer phenomena are perceptual/cognitive, not player affect",
+SUP101,Designing Mobile Augmented Reality Exergames,Unclear,,,"check: similar to sought ""Designing mobile augmented reality games"""
+SUP105,The Role of Auditory Features Within Slot-Themed Social Casino Games and Online Slot Machine Games,Unclear,EXCLUDE now,WRONG_CONSTRUCT: analysis of slot-game sound features; player affect not measured,

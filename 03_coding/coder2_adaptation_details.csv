@@ -1,0 +1,3 @@
+report_id,what is adapted,trigger signal (which affect/behaviour),timing (reactive / scheduled / anticipatory),"evaluation design (A/B, between, within, none)",outcome measures,reported result,page/section
+R090,"math tasks, difficulty, pacing, scaffolding","facial affect, hesitation, latency",reactive,"controlled DRL vs rule based, n=84","math mastery, joy, dropout",EMAS +12.7 vs +6.8; joy AU .36 vs .27,"Methods 3.5, Results"
+R091,educational content and difficulty,live facial emotion and gaze,reactive,adaptive/nonadaptive user study n=10,"satisfaction, emotions, quiz",80% favored adaptive; quiz gain +15%,Sections 3–4

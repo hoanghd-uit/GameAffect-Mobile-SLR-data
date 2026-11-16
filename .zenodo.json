@@ -1,0 +1,28 @@
+{
+  "title": "Data and coding materials for: From Sensing to Anticipation on the Phone: A PRISMA 2020 Systematic Review of Player-Affect Modelling in Mobile Games",
+  "upload_type": "dataset",
+  "version": "1.0",
+  "publication_date": "2026-11-15",
+  "description": "Search records (identifiers only), screening decisions, coding forms, the 59-variable codebook, human-human and human-LLM agreement analyses, and the 151 included reports with their codes, for a PRISMA 2020 systematic review of player-affect modelling in mobile games. Abstracts, author keywords, verbatim quotations and full texts of third-party reports are not included.",
+  "creators": [
+    {
+      "name": "Hoang, Ha Dang",
+      "affiliation": "University of Information Technology, Vietnam National University, Ho Chi Minh City"
+    },
+    {
+      "name": "Hop, Do Trong",
+      "affiliation": "University of Information Technology, Vietnam National University, Ho Chi Minh City"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "systematic review",
+    "PRISMA 2020",
+    "affective computing",
+    "mobile games",
+    "player experience",
+    "affect forecasting"
+  ],
+  "related_identifiers": []
+}

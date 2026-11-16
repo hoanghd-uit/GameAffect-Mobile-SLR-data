@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite both the dataset and the article."
+type: dataset
+title: "Data and coding materials for: From Sensing to Anticipation on the Phone: A PRISMA 2020 Systematic Review of Player-Affect Modelling in Mobile Games"
+version: "1.0"
+date-released: 2026-11-15
+license: CC-BY-4.0
+authors:
+  - family-names: Hoang
+    given-names: Ha Dang
+    affiliation: "University of Information Technology, Vietnam National University, Ho Chi Minh City, Vietnam"
+  - family-names: Hop
+    given-names: Do Trong
+    affiliation: "University of Information Technology, Vietnam National University, Ho Chi Minh City, Vietnam"
+keywords:
+  - systematic review
+  - PRISMA 2020
+  - affective computing
+  - mobile games
+  - player experience
+# doi: 10.5281/zenodo.XXXXXXX   # add after the Zenodo deposit is minted
+preferred-citation:
+  type: article
+  title: "From Sensing to Anticipation on the Phone: A PRISMA 2020 Systematic Review of Player-Affect Modelling in Mobile Games"
+  authors:
+    - family-names: Hoang
+      given-names: Ha Dang
+    - family-names: Hop
+      given-names: Do Trong
+  journal: "IEEE Transactions on Affective Computing"
+  status: submitted

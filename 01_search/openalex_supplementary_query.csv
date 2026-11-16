@@ -1,0 +1,12 @@
+Field,Value
+Database,OpenAlex (api.openalex.org/works)
+Field searched,title_and_abstract.search
+Date run,2026-11-11
+Year filter,publication_year 1995-2026; publication date <= 2026-09-11 applied after retrieval
+Query (OpenAlex boolean),"(game OR games OR gaming OR gameplay OR videogame OR ""video game"" OR ""video games"" OR exergame OR exergames) AND (affect OR affective OR emotion OR emotions OR emotional OR valence OR arousal OR frustration OR stress OR engagement OR ""player experience"" OR ""flow state"" OR enjoyment OR fun OR ""flow experience"" OR immersion OR boredom OR anxiety OR mood OR joy OR ""game experience"" OR ""playing experience"") AND (mobile OR smartphone OR smartphones OR phone OR phones OR tablet OR tablets OR touchscreen OR ""touch screen"" OR Android OR iOS OR iPhone OR iPad OR iPod OR handheld OR ""Pokemon GO"" OR ""Pokémon GO"" OR ""Candy Crush"" OR ""location-based game"")"
+Original Track A affect block,"(affect OR affective OR emotion OR emotions OR emotional OR valence OR arousal OR frustration OR stress OR engagement OR ""player experience"" OR ""flow state"")"
+Added affect terms,"(enjoyment OR fun OR ""flow experience"" OR immersion OR boredom OR anxiety OR mood OR joy OR ""game experience"" OR ""playing experience"")"
+Added game terms,"game, games (bare), exergame(s)"
+Added mobile terms,"handheld, iPad, Pokemon GO, Candy Crush, location-based game"
+Screening model,"claude-sonnet-5 (thinking disabled, single pass)"
+Screening prompt,see screening_prompt_spec.json; frozen mobile-core rule from Screening_Criteria_v1

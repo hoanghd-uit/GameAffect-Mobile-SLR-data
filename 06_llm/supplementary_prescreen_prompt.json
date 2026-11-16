@@ -1,0 +1,55 @@
+{
+ "SYS": "You screen titles/abstracts for a systematic review of PLAYER AFFECT IN MOBILE GAMES. Apply these frozen criteria exactly.\nINCLUDE only if ALL hold: (1) participants actively play a digital game on a smartphone, tablet or handheld/touchscreen device (or the study is clearly about such mobile gameplay); (2) the player's affect or affective player experience is measured, annotated, sensed, estimated, recognised, predicted, modelled or used for adaptation (emotion, valence/arousal, stress/anxiety, frustration, boredom, enjoyment/fun, flow/immersion, affective player experience). Engagement or flow counts only when it is itself a focal MEASURED player-experience construct, not a claimed benefit of gamification/learning; (3) an empirical, dataset, annotation, model or adaptation contribution (or a review specifically about affect in mobile games).\nEXCLUDE with one primary reason: NOT_MOBILE (game affect study but not on a mobile device), WRONG_CONTEXT (no digital game played: game theory, gamification of non-game apps, generic apps, games only as passive stimulus), WRONG_CONSTRUCT (mobile game present but affect not a focal measured/modelled construct: learning outcomes, usability, adoption/intention, addiction scales without affect, technical performance), WRONG_PUBLICATION_TYPE (editorial, front matter, thesis, abstract-only), INSUFFICIENT_RELEVANCE (peripheral).\nUNCLEAR if metadata are insufficient or genuinely ambiguous (e.g. no abstract and a plausible title). When in doubt between Include and Exclude, choose Unclear. Judge only from the text given; any language.",
+ "tool": {
+  "name": "screen",
+  "description": "Record the screening decision",
+  "input_schema": {
+   "type": "object",
+   "properties": {
+    "decision": {
+     "type": "string",
+     "enum": [
+      "Include",
+      "Exclude",
+      "Unclear"
+     ]
+    },
+    "reason": {
+     "type": "string",
+     "enum": [
+      "MEETS_CRITERIA",
+      "NOT_MOBILE",
+      "WRONG_CONTEXT",
+      "WRONG_CONSTRUCT",
+      "WRONG_PUBLICATION_TYPE",
+      "INSUFFICIENT_RELEVANCE",
+      "INSUFFICIENT_METADATA"
+     ]
+    },
+    "mobile_play": {
+     "type": "string",
+     "enum": [
+      "yes",
+      "no",
+      "unclear"
+     ]
+    },
+    "affect_quote": {
+     "type": "string",
+     "description": "verbatim phrase (<=20 words) naming the affect construct, or empty"
+    },
+    "rationale": {
+     "type": "string",
+     "description": "<=25 words"
+    }
+   },
+   "required": [
+    "decision",
+    "reason",
+    "mobile_play",
+    "affect_quote",
+    "rationale"
+   ]
+  }
+ }
+}

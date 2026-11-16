@@ -1,0 +1,49 @@
+layer,guiding_question,dimension,pillar,category,reports,frontier
+I. Context,"Where, on what, with which game?",D1 Platform,P1,Smartphone,110,no
+I. Context,"Where, on what, with which game?",D1 Platform,P1,Tablet,19,no
+I. Context,"Where, on what, with which game?",D1 Platform,P1,Mixed devices,18,no
+I. Context,"Where, on what, with which game?",D1 Platform,P1,Handheld console,4,no
+I. Context,"Where, on what, with which game?",D2 Game purpose,P1,Commercial entertainment,64,no
+I. Context,"Where, on what, with which game?",D2 Game purpose,P1,Research prototype,33,no
+I. Context,"Where, on what, with which game?",D2 Game purpose,P1,Serious: education,31,no
+I. Context,"Where, on what, with which game?",D2 Game purpose,P1,Serious: health,14,no
+I. Context,"Where, on what, with which game?",D2 Game purpose,P1,Exergame / location-based,9,no
+I. Context,"Where, on what, with which game?",D3 Setting,P1,Laboratory,73,no
+I. Context,"Where, on what, with which game?",D3 Setting,P1,Online / remote,32,no
+I. Context,"Where, on what, with which game?",D3 Setting,P1,Classroom / clinic,27,no
+I. Context,"Where, on what, with which game?",D3 Setting,P1,"Field, own device",22,no
+I. Context,"Where, on what, with which game?",D3 Setting,P1,"Released game, app store",6,no
+II. Affect representation,What is affect taken to be?,D4 Construct family,P1,"Experiential (enjoyment, flow, ...)",128,no
+II. Affect representation,What is affect taken to be?,D4 Construct family,P1,"Categorical (emotions, stress, ...)",49,no
+II. Affect representation,What is affect taken to be?,D4 Construct family,P1,"Dimensional (arousal, valence)",26,no
+II. Affect representation,What is affect taken to be?,D5 Ground-truth source,P1,Questionnaire / scale,115,no
+II. Affect representation,What is affect taken to be?,D5 Ground-truth source,P1,Interview / qualitative,15,no
+II. Affect representation,What is affect taken to be?,D5 Ground-truth source,P1,Observer annotation,8,no
+II. Affect representation,What is affect taken to be?,D5 Ground-truth source,P1,Physiological proxy,4,no
+II. Affect representation,What is affect taken to be?,D5 Ground-truth source,P1,In-game probe,4,no
+II. Affect representation,What is affect taken to be?,D6 Label granularity,"P1, P3",Post-session,82,no
+II. Affect representation,What is affect taken to be?,D6 Label granularity,"P1, P3",Pre-post,12,no
+II. Affect representation,What is affect taken to be?,D6 Label granularity,"P1, P3",Per level / round,30,no
+II. Affect representation,What is affect taken to be?,D6 Label granularity,"P1, P3",Per window,1,yes
+II. Affect representation,What is affect taken to be?,D6 Label granularity,"P1, P3",Continuous trace,1,yes
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,Subjective: self-report,143,no
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,"Behavioural: telemetry, touch, IMU",13,no
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,"Physiological: lab, wearable",19,no
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,"Expressive: face, voice",6,no
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,Captured by the device itself,7,no
+III. Sensing and inference,How is affect captured and inferred?,D7 Signal family,P1,Phone-camera heart rate,0,yes
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Measurement only (no model),141,no
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Concurrent detection,10,no
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Validated on unseen players,3,yes
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Leakage-controlled,0,yes
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Continuous estimation,0,yes
+III. Sensing and inference,How is affect captured and inferred?,D8 Inference and validation,"P2, P3",Validated forecast,0,yes
+IV. Purpose,What is affect used for?,D9 Role of affect,P5,Evaluate the game,149,no
+IV. Purpose,What is affect used for?,D9 Role of affect,P5,Explain retention,19,no
+IV. Purpose,What is affect used for?,D9 Role of affect,P5,Detect automatically,13,no
+IV. Purpose,What is affect used for?,D9 Role of affect,P5,Adapt reactively,3,yes
+IV. Purpose,What is affect used for?,D9 Role of affect,P5,Adapt anticipatively,0,yes
+IV. Purpose,What is affect used for?,D10 Explanation,P4,,148,no
+IV. Purpose,What is affect used for?,D10 Explanation,P4,Interpretable by design,2,yes
+IV. Purpose,What is affect used for?,D10 Explanation,P4,Post-hoc input attribution,1,yes
+IV. Purpose,What is affect used for?,D10 Explanation,P4,Explanation of expected change,0,yes

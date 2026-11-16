@@ -1,0 +1,17 @@
+Step,n
+"OpenAlex records identified (query below, run 2026-11-11)",14802
+Unique works after OpenAlex-internal de-duplication,14716
+"Removed: ineligible type (dissertation, preprint, editorial, book, other), MDPI, or after 11 Sep 2026",3013
+Eligible-type records,11703
+"Already in the original review (DOI or normalised-title match to the 3,839 reports sought)",848
+"Matching the original Scopus strings (tracks A-D2) on title/abstract/keywords: covered by the original search, not re-screened",3563
+Term-gap records: reachable only through the added terms and not in the original review,7292
+"Removed by deterministic noise filter (game theory, no gameplay context)",4069
+  - random sample of 100 removed records screened: Include / Unclear,0 / 2
+"Screened (LLM, frozen mobile criteria)",3223
+  - with explicit mobile-game phrase,1856
+"  - residual (no explicit phrase), screened in full",1367
+LLM Include,64
+LLM Unclear,78
+Candidates for human title/abstract check (Include + Unclear),142
+  - of which duplicate of an original record,1

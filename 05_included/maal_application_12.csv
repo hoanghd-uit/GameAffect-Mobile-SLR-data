@@ -1,0 +1,13 @@
+source_id,bib_key,year,S1_on_device,S2_unseen_player,S3_leakage,S4_temporal,S5_explanation,S6_adapt_vs_control,first_break
+CAN03002,r42,2012,True,True,False,False,False,--,S3
+CAN02891,nm3,2016,False,False,False,False,False,--,S1
+SUP046,s_sup046,2017,True,False,False,False,False,N,S2
+CAN02019,s_can02019,2018,False,True,False,False,True,--,S1
+CAN02340,nm10,2019,True,False,False,False,True,--,S2
+CAN05596,na7,2019,False,True,False,False,True,--,S1
+CAN01672,s_can01672,2021,False,False,False,False,False,--,S1
+CAN01195,nm2,2023,True,False,False,False,False,--,S2
+SUP080,s_sup080,2024,False,False,False,False,False,--,S1
+CAN00231,nm6,2025,True,False,False,False,False,Y,S2
+CAN09123,nm12,2025,True,False,False,False,False,Y,S2
+CAN00164,s_can00164,2026,False,False,False,False,False,--,S1

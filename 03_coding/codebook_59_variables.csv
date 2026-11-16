@@ -1,0 +1,60 @@
+variable,pillar,allowed values,definition and decision rule
+FT_eligible,0 Eligibility,yes | no,"Re-check on full text: a person plays a digital game on a smartphone, tablet or handheld device AND the player's affect/affective experience is measured, sensed, modelled or used for adaptation AND there is an empirical, dataset, model or adaptation contribution."
+FT_exclusion_reason,0 Eligibility,NOT_MOBILE | WRONG_CONTEXT | WRONG_CONSTRUCT | WRONG_PUBLICATION_TYPE | INSUFFICIENT_RELEVANCE | NA,"Only if FT_eligible = no; first applicable reason in this order. If no, leave the rest of the row blank."
+device,P1 Context,smartphone | tablet | handheld console | mixed | not reported,"Device on which participants played. ""mixed"" = several device types or platforms compared."
+game_purpose,P1 Context,entertainment-commercial | entertainment-research prototype | serious-education | serious-health-therapy | exergame-location-based | not reported,Primary purpose of the game played.
+genre,P1 Context,AR/location-based | casual-puzzle | educational | action-shooter | MOBA-strategy | rhythm-music | exergame | other | not reported,Main genre of the game played.
+commercial_title,P1 Context,yes | no | not reported,"A published commercial title (e.g. Pokemon GO, Candy Crush Saga) was played."
+commercial_title_name,P1 Context,text,"Name of the commercial title, if yes."
+set_lab,P1 Setting,yes | no,Data collected in a laboratory session. Setting columns are multi-select: mark each that applies.
+set_online_remote,P1 Setting,yes | no,"Online or remote participation (survey of players, remote study)."
+set_field_wild,P1 Setting,yes | no,Field / in-the-wild play on participants' own devices.
+set_classroom_clinic,P1 Setting,yes | no,"School, clinic or care-home sessions."
+set_appstore,P1 Setting,yes | no,"Data from a publicly released game with real players (app-store deployment, live telemetry)."
+session_design,P1 Setting,single session | multi-session/multi-day | not reported,Whether the same players were observed over more than one session or day.
+n_participants,P1 Setting,number or NR,Number of players analysed (final sample). NR if not reported.
+ch_self_report,P1 Channels,yes | no,"Channels count ONLY if used to measure or infer player affect/experience, never if they merely control the game. Self-report = questionnaire, scale, interview or in-game rating of affect/experience."
+ch_telemetry_logs,P1 Channels,yes | no,"In-game events, logs, performance or play behaviour used to measure or infer affect."
+ch_lab_physiology,P1 Channels,yes | no,"EEG, EDA/GSR, ECG, PPG, EMG, respiration or temperature with research equipment."
+ch_front_camera_face,P1 Channels,yes | no,Face video / facial expression from the device camera or an external camera.
+ch_touch,P1 Channels,yes | no,"Touch dynamics: stroke pressure, speed, length, swipe or tap features."
+ch_imu,P1 Channels,yes | no,Accelerometer or gyroscope traces of the device.
+ch_microphone_voice,P1 Channels,yes | no,Voice / speech / audio of the player.
+ch_external_wearable,P1 Channels,yes | no,"Consumer wearable (watch, band, chest strap) physiology."
+ch_phone_ppg_camera_hr,P1 Channels,yes | no,Heart rate estimated with the phone camera (PPG).
+c_arousal_valence,P1 Constructs,yes | no,Constructs measured as affect of the player (multi-select). Dimensional arousal and/or valence.
+c_discrete_emotions,P1 Constructs,yes | no,"Discrete emotions (joy, anger, fear, surprise ...)."
+c_stress_anxiety,P1 Constructs,yes | no,Stress or anxiety.
+c_frustration_boredom,P1 Constructs,yes | no,Frustration or boredom.
+c_enjoyment_fun,P1 Constructs,yes | no,Enjoyment or fun.
+c_flow_immersion_presence,P1 Constructs,yes | no,"Flow, immersion or presence."
+c_challenge_difficulty,P1 Constructs,yes | no,Perceived challenge or difficulty.
+c_engagement,P1 Constructs,yes | no,Engagement measured alongside an affective construct. Engagement alone does not make a report eligible.
+c_player_experience_general,P1 Constructs,yes | no,"General player-experience instrument (GEQ, PENS, PXI ...) without a more specific code above."
+affect_constructs_text,P1 Constructs,text,Construct names as stated by the authors.
+label_source,P1 Labels,questionnaire/scale | in-game probe | continuous annotation | observer annotation | physiological proxy | interview/qualitative | other | none,Main source of the affect label / ground truth.
+label_timing,P1 Labels,post-session | per level/round | per window | continuous trace | pre-post | not reported,"When the affect label refers to, relative to play."
+measure_reliability_reported,P1 Labels,yes | no,"Reliability or validity of the affect measure reported (e.g. Cronbach alpha, ICC, validated scale cited with values)."
+open_data,P1 Labels,yes | no,Data are open or a public dataset was used.
+affect_model_trained,P2 Models,yes | no,"A computational model is trained to recognise or predict affect. Inferential statistics (ANOVA, regression for hypothesis tests, SEM/PLS-SEM) do NOT count."
+player_level_model,P2 Models,yes | no | NA,The model predicts the affect of individual players (not app-store reviews or aggregate data).
+model_family,P2 Models,classical ML | deep learning | shallow neural network | rule-based/fuzzy | preference learning | probabilistic sequence (HMM/Markov) | reinforcement learning | text mining of reviews | other | NA,"Main model family, if affect_model_trained = yes."
+validation_scheme,P2 Models,k-fold (record-wise) | hold-out split | leave-one-subject-out | grouped/subject-wise CV | cross-game | in-sample only | not reported | NA,How the model was evaluated.
+subject_independent,P2 Models,yes | no | NA,"yes only if test players never appear in training (LOSO, grouped split, new players). NA if no model."
+leakage_control,P2 Models,yes | no | NA,"yes only if explicit: preprocessing/normalisation/feature selection/tuning fitted on training data only, or explicit non-overlap of windows across splits. NA if no model."
+baseline_comparison,P2 Models,yes | no | NA,"Compared against a baseline (chance, majority, persistence, simpler model)."
+metrics_reported,P2 Models,yes | no | NA,Quantitative evaluation metrics reported.
+model_evidence_page,P2 Models,text,"Page/section supporting the validation, subject-independence and leakage codes (also for ""no"")."
+temporal_formulation,P3 Temporal,concurrent detection | continuous estimation | forecast | NA,"Concurrent = label describes the same window/level/session as the input. Continuous = time-resolved trace y(t). Forecast = predicts affect at t+h from inputs ending at t, h>0. NA if no model."
+continuous_estimation,P3 Temporal,yes | no,yes only if the model outputs a time-resolved affect trace (or continuous-valued affect over time) and it is evaluated.
+forecast_validated,P3 Temporal,yes | no,"yes only if ALL: affect target, explicit positive horizon, target window not overlapping the input, quantitative held-out evaluation. Engagement-only, churn, errors or raw physiology targets do not count."
+forecastability_class,P3 Temporal,structurally concurrent | timing not reported | could be evaluated as forecast | NA,"For trained models: could this design have been evaluated as a forecast? ""could be"" = labels refer to a later period than some inputs, but the authors did not frame/evaluate it as a forecast."
+horizon_h,P3 Temporal,text,"Stated horizon or input-target offset, if any."
+temporal_evidence_page,P3 Temporal,text,Page/section supporting the temporal codes.
+xai_method,P4 XAI,none | feature importance | SHAP | interpretable by design | saliency/attention | other,Explicit explanation method applied to an affect model. Path diagrams or SEM coefficients are not XAI.
+xai_explains,P4 XAI,input attribution | model behaviour | predicted change in affect | NA,What the explanation explains.
+use_evaluation,P5 Use,yes | no,Affect information used to evaluate or measure a game (multi-select).
+use_detection,P5 Use,yes | no,Affect information used for automatic detection.
+use_adaptation,P5 Use,yes | no,"Affect information used to adapt the game (difficulty, content, feedback)."
+use_retention,P5 Use,yes | no,Affect linked to retention or continued play.
+notes,Other,text,Anything unusual; uncertain codes; quote if helpful.
